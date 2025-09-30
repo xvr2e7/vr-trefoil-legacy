@@ -1,0 +1,169 @@
+# ===== Unity / Game dev rules =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Uncomment if ignoring asset store plugin
+# /[Aa]ssets/AssetStoreTools*
+
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+.vs/
+.gradle/
+
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+sysinfo.txt
+
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+crashlytics-build.properties
+
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== OS / Platform / Editor / Dev environment rules =====
+
+# — macOS / Apple files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+.Spotlight-V100
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB/
+.AppleDesktop/
+Network\ Trash\ Folder/
+.apdisk
+
+# — Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# — Linux / generic temp / backup files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# — VSCode
+.vscode/
+# If you want to allow some VSCode configs (e.g. launch/task definitions), you can “un-ignore” them:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
+
+.history/           # if you use a local history extension
+*.code-workspace    # workspace file (optionally)
+
+# — IDEs, Editors, tool configs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains, Rider etc.
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS / editor swap / lock files
+*.lock
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# — Environment / secrets / local config
+.env
+.env.*   # e.g. .env.local, .env.development
+.local.env
+Secrets/            # or whatever folder you use for secrets
+*.pem
+*.key
+*.crt
+
+# — Build / distribution / package artifacts (non‑Unity)
+build/
+dist/
+out/
+bin/
+obj/
+temp/
+logs/
+
+# — Node / JS / frontend (if applicable)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# coverage outputs
+coverage/
+*.lcov
+.nyc_output
+
+# — Python / virtual env (if applicable)
+venv/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ===== End / Custom additions =====
