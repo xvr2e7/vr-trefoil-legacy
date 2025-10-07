@@ -167,3 +167,17 @@ __pycache__/
 .eggs/
 
 # ===== End / Custom additions =====
+# Unity Burst debug info
+[Tt]refoil*BurstDebugInformation*/
+
+# Unity upgrade logs
+UpgradeLog*.htm
+
+# IDE configs
+.vsconfig
+.vscode/
+*.csproj
+*.sln
+
+# Input bindings
+RuntimeActionBindings.json
